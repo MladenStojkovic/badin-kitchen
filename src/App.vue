@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 body {
   margin: 0;
 }
@@ -32,11 +32,11 @@ body {
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-}
-.list-container {
-  padding-top: 10vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  .list-container {
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 </style>
